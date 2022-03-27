@@ -11,8 +11,7 @@ Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
 
 ### Prerequisites
 
-- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)).
-- I am using JetBrainsMono Nerd Fonts
+- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, here I am using [JetBrains Mono](https://www.nerdfonts.com/font-downloads)).
 
 ### Step 1. Install Starship
 
