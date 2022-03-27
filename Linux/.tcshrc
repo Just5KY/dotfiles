@@ -1,0 +1,3 @@
+# ~/.tcshrc
+
+eval `starship init tcsh`
