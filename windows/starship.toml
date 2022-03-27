@@ -1,0 +1,98 @@
+# code $HOME\.starship\starship.toml
+
+# Inserts a blank line between shell prompts
+add_newline = false
+# Change command timeout from 500 to 1000 ms
+command_timeout = 1000
+# Change the default prompt format
+format = """\
+[╭╴](238)$env_var\
+$all[╰─](238)$character"""
+# Shows an icon that should be included by zshrc script based on the distribution or os
+[env_var.STARSHIP_DISTRO]
+format = '[$env_value](bold white)'  # removed space between distro and rest for pwsh
+variable = "STARSHIP_DISTRO"
+disabled = false
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+[[battery.display]]
+threshold = 10
+style = "bold red"
+[cmd_duration]
+min_time = 500
+format = "underwent [$duration](bold yellow)"
+[directory]
+truncation_length = 10
+truncation_symbol = "…/"
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+[dotnet]
+symbol = "󰪮 "
+style = "green"
+heuristic = false
+[git_branch]
+symbol = "🌱 "
+truncation_length = 4
+truncation_symbol = ""
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "[🍒 PICKING](bold red)"
+[git_metrics]
+added_style = "bold blue"
+format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+[git_status]
+conflicted = "🏳"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = "✓"
+untracked = "🤷‍"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+[hostname]
+ssh_only = false
+format =  "on [$hostname](bold red) "
+trim_at = ".companyname.com"
+disabled = false
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = " "
+style = "bold green"
+[nodejs]
+format = "via [🤖 $version](bold green) "
+#[shell]
+#fish_indicator = ""
+#powershell_indicator = "_"
+#unknown_indicator = "mystery shell"
+#style = "cyan bold"
+#disabled = false
+[status]
+style = "bg:blue"
+symbol = "🔴"
+format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+[sudo]
+allow_windows = true
+disabled = false
+#[time]
+#disabled = false
+#format = '🕙[\[ $time \]]($style) '
+#time_format = "%T"
+#utc_time_offset = "-5"
+#time_range = "10:00:00-14:00:00"
+[username]
+style_user = "white bold"
+style_root = "black bold"
+format = " [$user]($style) "
+disabled = false
+show_always = true
