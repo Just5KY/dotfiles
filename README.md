@@ -3,11 +3,15 @@ Personal customization files used on Windows and/or Linux experience.
 
 Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
 
+![Powershell](https://user-images.githubusercontent.com/71321862/160266439-51cae5bc-d843-490a-92d2-28a84e4d9ca9.png)
+
+
 ## Installation
 
 ### Prerequisites
 
 - A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)).
+- I am using JetBrainsMono Nerd Fonts
 
 ### Step 1. Install Starship
 
