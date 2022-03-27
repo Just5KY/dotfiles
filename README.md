@@ -226,3 +226,5 @@ eval "$(starship init zsh)"
 ```
 
 </details>
+
+### Follow guilde from [Startship](https://starship.rs) if you're stuck somewhere
