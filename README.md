@@ -1,5 +1,5 @@
 # dotfiles
-Personal customization files used on Windows and/or Linux desktop experience.
+Personal customization files used on Windows and/or Linux experience.
 
 Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
 
