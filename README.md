@@ -5,6 +5,7 @@ Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
 
 ![Powershell](https://user-images.githubusercontent.com/71321862/160266439-51cae5bc-d843-490a-92d2-28a84e4d9ca9.png)
 
+![Linux](https://user-images.githubusercontent.com/71321862/160266535-24ee625b-7571-4304-8e47-aa5654b30b15.png)
 
 ## Installation
 
