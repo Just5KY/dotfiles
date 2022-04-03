@@ -1,13 +1,17 @@
 # dotfiles
-Personal customization files used on Windows and/or Linux desktop experience.
+Personal customization files used on Windows and/or Linux experience.
 
 Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
+
+![Powershell](https://user-images.githubusercontent.com/71321862/160266439-51cae5bc-d843-490a-92d2-28a84e4d9ca9.png)
+
+![Linux](https://user-images.githubusercontent.com/71321862/160266535-24ee625b-7571-4304-8e47-aa5654b30b15.png)
 
 ## Installation
 
 ### Prerequisites
 
-- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)).
+- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, here I am using [JetBrains Mono](https://www.nerdfonts.com/font-downloads)).
 
 ### Step 1. Install Starship
 
