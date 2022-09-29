@@ -13,6 +13,11 @@ Inspired by [Xcad2k/dotfiles](https://github.com/xcad2k/dotfiles)
 
 - A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, here I am using [JetBrains Mono](https://www.nerdfonts.com/font-downloads)).
 
+
+### Optional: OhMyPosh
+
+    `winget install JanDeDobbeleer.OhMyPosh -s winget`
+
 ### Step 1. Install Starship
 
 Select your operating system from the list below to view installation instructions:

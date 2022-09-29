@@ -4,12 +4,19 @@ $ENV:STARSHIP_CONFIG = "$HOME\.starship\starship.toml"
 $ENV:STARSHIP_DISTRO = "SKY "
 Invoke-Expression (&starship init powershell)
 
-# Shows navigable menu of all options when hitting Tab
-Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+## Oh My Posh
+# oh-my-posh init pwsh --config 'C:\Users\justsky\AppData\Local\Programs\oh-my-posh\themes\hackthebox.omp.json' | Invoke-Expression
 
-# Autocompletion for arrow keys
-Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
-Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+Import-Module -Name Terminal-Icons
+
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 
 # Import the Chocolatey Profile that contains the necessary code to enable
